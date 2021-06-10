@@ -1,7 +1,18 @@
-# MyReads Project
-I have Started from the starter pack provided I have divided the app into components and pages
+# About
+In this project you can choose from a variety of books and determine it's state right now wheter you are reading it or read or want to read it.
 
-## TL;DR
+
+## Frontend 
+It was implemented using create-react-app
+I have structured the application into 2 parts
+  - [`components`](#components)
+    - [`BookShelf`](#BookShelf)
+    - [`BookList`](#BookList)
+    - [`Book`](#Book)
+  - [`pages`](#pages)
+    - [`MainPage`](#MainPage)
+    - [`SearchPage`](#SearchPage)
+    
 
 To get started deploying right away:
 
@@ -13,7 +24,6 @@ To get started deploying right away:
 To simplify your development process, we've provided a backend server for you to develop against. The provided file [`BooksAPI.js`](src/BooksAPI.js) contains the methods you will need to perform necessary operations on the backend:
 
 - [MyReads Project](#myreads-project)
-  - [TL;DR](#tldr)
   - [Backend Server](#backend-server)
     - [`getAll`](#getall)
     - [`update`](#update)
